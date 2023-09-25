@@ -1,0 +1,405 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #FFF8F0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0px;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.bigtext {
+    color: #331E6A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto 48px auto;
+}
+
+#hero-text {
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+}
+#hi-and-name{
+    margin-top: 52px;
+}
+
+#hero-img-wrapper {
+    width: 50%;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+.smalltext {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#contact-button {
+    width: 138px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2F2F2F;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 20px;
+}
+#contact-button:hover {
+    background-color: white;
+    color: #2F2F2F;
+    cursor: pointer;
+}
+/* What I Do section */
+#what-i-do-section {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+#skill-boxes {
+    display: flex;
+}
+#skill-boxes .single-box {
+    margin: 10px;
+    background-color: white;
+}
+
+#skill-boxes p{
+    margin: 8px 20px 20px 20px;
+    /* text-align: center; */
+    color: #55206D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+#skill-boxes h3{
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    color: #000;
+}
+
+/* My Projects Section */
+#my-projects {
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 98px;
+}
+
+.single-project{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.project-name1{
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #19ACFF;
+}
+.project-name2{
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFE819;
+}
+.project-name3{
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF1919;
+}
+
+.PN{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.project-name2 p{
+    color: black;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.projects-info {
+    margin-left: 20px;
+}
+.projects-info h3{
+    margin: 0;
+    color: #291854;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.project-description{
+    color: #55206D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.projects-info a{
+    color: #6A87A3;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.projects-info span{
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+
+
+
+/* Pricing section */
+
+#pricing-section{
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+.overtitle {
+    color: #2858FF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.section-heading {
+    text-align: center;
+    max-width:  686px;
+    margin: 0 auto 0 auto;
+}
+.section-subtitle {
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 686px;
+}
+
+#pricing-boxes {
+    display: flex;
+}
+.single-box {
+    width: 33.33%;
+}
+.pricing-card {
+    background-color: white;
+    margin:  10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+}
+.service {
+    color: #2858FF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.price {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 8px;
+}
+.price-per-page {
+    color: #8A8A8A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.service-description {
+    width: 250px;
+    color: #8B8B8B;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 164.286% */
+    margin-top: 8px;
+}
+.service-benefits {
+    list-style-type: none;
+    padding: 0px;
+    color: #666;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.service-contact {
+    width: 100%;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 2px solid#2F2F2F;
+    margin-top: 8px;
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+.service-contact:hover{
+    background-color: #2F2F2F;
+    color: white;
+    cursor: pointer;
+}
+
+.card-2{
+    background-color: #FFD748;
+}
+.card-2 .service {
+    color: #000000;
+}
+.card-2 .price-per-page .service-decription{
+    color: rgba(0, 0, 0, 0.50);
+}
+.card-2 .service-benefits {
+    color: rgba(0, 0, 0, 0.75)
+}
+.card-2 .service-contact {
+    border: 2px solid #000;
+    background-color: #000;
+    color: white;
+}
+.card-2 .service-contact:hover {
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Questions and Answers section */ 
+
+#questions-section{
+    max-width: 1060px;
+    margin:0 auto;
+    margin-top: 98px;
+}
+
+#questions-answers {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.questions {
+    display: flex;
+    color: #55206D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.questions svg {
+    margin-left: auto;
+}
+
+.answers {
+    color: #6A87A3;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    margin-top: 8px;
+}
+
+.answers-hide {
+    /* float: right; */
+    /* display: flex; */
+    /* align-self: flex-end; */
+    justify-content: end;
+    height: 24px;
+    width: 24px;
+    flex-shrink: 0;
+}
+
+/* Footer section */
+#footer-section{
+    width: 100%;
+    /* height: 52px; */
+    flex-shrink: 0;
+    background: #000;
+    color: #FFF;
+    padding: 20px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 96px;
+}
